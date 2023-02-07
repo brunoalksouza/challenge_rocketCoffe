@@ -35,8 +35,18 @@ nav {
   align-items: center;
 }
 
+.mobile-logo-text {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+}
+
 .rocket-logo {
   width: 70px;
+}
+.rocket-title {
+  display: none;
 }
 
 .menu {
@@ -70,6 +80,39 @@ li:hover {
   cursor: pointer;
   transform: scale(1.07);
   background-color: #29292e;
+}
+
+.menu-buguer-open {
+  display: none;
+}
+
+@media (max-width: 923px) {
+  .rocket-logo {
+    width: 70px;
+  }
+  .rocket-title {
+    display: contents;
+    font-family: "Orbitron", sans-serif;
+    font-size: 25px;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .menu {
+    display: none;
+  }
+  .getCoffe-btn {
+    display: none;
+  }
+  .menu-buguer-open {
+    display: flex;
+    justify-content: end;
+    transition: 0.2s ease;
+  }
+  .menu-buguer-open:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
 }
 
 .img-left {
@@ -110,7 +153,7 @@ main {
   color: black;
 }
 
-.coffee-wrapper{
+.coffee-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
