@@ -162,3 +162,23 @@ main {
     font-size: 50px;
   }
 }
+
+@media (max-width: 550px) {
+  .rocket-logo {
+    width: 70px;
+  }
+
+  .rocket-title {
+    display: contents;
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+  }
+
+  .title1, .title2 {
+    font-size: 32px;
+  }
+
+  .coffee {
+    width: 600px;
+  }
+}
