@@ -14,49 +14,78 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./assets/rocket-logo.png" type="image/x-icon" />
   <link rel="stylesheet" href="./style.css" />
-  <script src="./script.js"></script>
 </head>
 
 <body>
-  <img class="img-left" src="./assets/blur-1.png" alt="" />
-  <img class="img-right" src="./assets/blur-2.png" alt="" />
-  <nav>
-    <div class="mobile-logo-text">
-      <img class="rocket-logo" src="./assets/rocket-logo.png" alt="" />
-      <h2 class="rocket-title">rockeseat</h2>
+
+  <div class="mobile-menu-wrapper" id="mobile-menu-wrapper">
+    <div class="mobile-logo-text-mob">
+      <div class="mobile-logo-title-mob">
+        <img class="rocket-logo" src="./assets/rocket-logo.png" alt="" />
+        <h2 class="rocket-title">rockeseat</h2>
+      </div>
+      <img class="menu-buguer-open mobile-menu" id="menu-buguer-open" onclick="mobileMenu()"
+        src="./assets/menu-buguer-close.svg" alt="" />
     </div>
-    <div class="menu">
-      <ul>
-        <li>Home</li>
-      </ul>
-      <ul>
-        <li>Menu</li>
-      </ul>
-      <ul>
-        <li>Recompensas</li>
-      </ul>
-      <ul>
-        <li>GiftCards</li>
-      </ul>
-      <ul>
-        <li>Lojas</li>
-      </ul>
-    </div>
-    <img class="menu-buguer-open" src="./assets/menu-buguer-open.svg" alt="" />
-    <button class="getCoffe-btn">PEGAR MEU CAFÉ</button>
-  </nav>
+    <ul>
+      <hr size="4">
+      <li class="mob-item">Home</li>
+      <hr size="4">
+      <li class="mob-item">Menu</li>
+      <hr size="4">
+      <li class="mob-item">Recompensas</li>
+      <hr size="4">
+      <li class="mob-item">GiftCards</li>
+      <hr size="4">
+      <li class="mob-item">Lojas</li>
+      <hr size="4">
+    </ul>
+  </div>
 
   <main>
-    <div class="text-wrapper">
-      <h1 class="title1">Great Coffee</h1>
-      <h1 class="title2">
-        < Great Coffee />
-      </h1>
-    </div>
-    <div class="coffee-wrapper">
-      <img class="coffee" src="./assets/rocket-coffee.png" alt="" />
-    </div>
+    <img class="img-left" src="./assets/blur-1.png" alt="" />
+    <img class="img-right" src="./assets/blur-2.png" alt="" />
+    <nav>
+      <div class="mobile-logo-text">
+        <img class="rocket-logo" src="./assets/rocket-logo.png" alt="" />
+        <h2 class="rocket-title">rockeseat</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="item">Home</li>
+        </ul>
+        <ul>
+          <li class="item">Menu</li>
+        </ul>
+        <ul>
+          <li class="item">Recompensas</li>
+        </ul>
+        <ul>
+          <li class="item">GiftCards</li>
+        </ul>
+        <ul>
+          <li class="item">Lojas</li>
+        </ul>
+      </div>
+      <img class="menu-buguer-open mobile-menu" id="menu-buguer-open" onclick="mobileMenu()"
+        src="./assets/menu-buguer-open.svg" alt="" />
+      <button class="getCoffe-btn">PEGAR MEU CAFÉ</button>
+    </nav>
+
+    <section>
+      <div class="text-wrapper">
+        <h1 class="title1">Great Coffee</h1>
+        <h1 class="title2">
+          < Great Coffee />
+        </h1>
+      </div>
+      <div class="coffee-wrapper">
+        <img class="coffee" src="./assets/rocket-coffee.png" alt="" />
+      </div>
+    </section>
   </main>
+  <script src="./script.js"></script>
+
 </body>
 
 </html>
