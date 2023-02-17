@@ -206,7 +206,6 @@ main {
   }
   .menu-buguer-open:hover {
     cursor: pointer;
-    transform: scale(1.2);
   }
 
   .title1,
